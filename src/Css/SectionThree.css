@@ -1,0 +1,24 @@
+.section-three-heading{
+    font-weight: 700;
+    font-size: 61px;
+    line-height: 80px;
+}
+.section-three-paragraph{
+    width: 516px;
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+@media (max-width:767px ){
+    .section-three-heading{
+        margin-top: 20px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .section-three-paragraph{
+        font-size: 15px;
+        width: 350px;
+    }
+}
